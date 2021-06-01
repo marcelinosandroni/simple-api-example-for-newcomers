@@ -42,3 +42,7 @@ yarn build
 ## Rotas
 
 Consulte o arquivo `localhost.rest` para ver todas as rotas existentes.
+
+## Autor
+
+**Marcelino Sandroni**
