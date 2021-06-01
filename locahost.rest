@@ -1,0 +1,49 @@
+http://localhost:3000/ping
+
+### Pegar todo alunos
+GET http://localhost:3000/alunos
+
+### Criar novo aluno
+POST http://localhost:3000/alunos
+Content-Type: application/json
+
+{
+  "nome": "Oxi",
+  "idade": 29,
+  "turma_id": 1
+}
+
+### Atualizar aluno
+PUT http://localhost:3000/alunos/1
+Content-Type: application/json
+
+{
+  "nome": "VISH",
+  "idade": 29,
+  "turma_id": 2
+}
+
+### Expulsar aluno
+DELETE http://localhost:3000/alunos/5
+
+
+### Alunos por nome
+GET http://localhost:3000/alunos/procurar?nome=marc
+
+
+### Ver todas turmas
+GET http://localhost:3000/turmas
+
+### Criar turma
+POST http://localhost:3000/turmas
+Content-Type: application/json
+
+{
+  "nome": "Nova turminha"
+}
+
+### Pegar alunos na turminha
+GET http://localhost:3000/turmas/1
+
+### Deletar turminha
+⁺DELETE http://localhost:3000/turmas/6
